@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
 h1 {
-    color: red;
+    color:green;
+    text-align: center;
+}
+
+th {
+    color: white;
+}
+
+table {
+    padding: 5px;
+}
+
+th {
+    background-color: green;
+}
+
+td {
+    padding: 15px;   
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(173, 241, 70);
+}
+
+tr:nth-child(even) {
+    background-color: greenyellow;
 }
